@@ -176,9 +176,23 @@ Float: right;
 Margin: -5px;
 }
 
+#DivProjectsblue {
+	color:blue;
+	width: 75%;	
+	Float: left;
+	}
 
+#DivProjectsyellow {
+		color:yellow;
+		width: 75%;	
+		Float: left;
+		}
 
-
+#DivProjectsgreen {
+			color:green;
+			width: 75%;	
+			Float: left;
+			}
 
 
 
