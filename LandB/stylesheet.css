@@ -79,7 +79,8 @@ border-width: 2px;
 border-style: solid;
 background-image:;
 
-
+p.paragraphgreen {
+	color: yellow;
 }
 
 
@@ -175,7 +176,7 @@ width: 25%;
 Float: right;
 Margin: -5px;
 }
-
+/*
 #DivProjectsblue {
 	color:blue;
 	
@@ -193,6 +194,7 @@ Margin: -5px;
 			
 			Float: left;
 			}
+			*/
 
 
 
