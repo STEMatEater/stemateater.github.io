@@ -79,17 +79,6 @@ body{
 	border-style: solid;
 	background-image:;
 	}
-	
-	p.paragraphb {
-		colo:black;
-		font-size:15px;
-		line-height:1.5em;
-		background-color: #223D6B;
-		padding: 20px;/*padding goes top right bottom left for values same with margin*/
-		border-color: black;
-		border-width: 2px;	
-		border-style: solid;
-		background-image:;
 	}
 	
 	p.paragraphy {
@@ -105,18 +94,6 @@ body{
 	}
 	
 	p.paragraphr {
-		color:black;
-		font-size:15px;
-		line-height:1.5em;
-		background-color:#B83535;
-		padding: 20px;/*padding goes top right bottom left for values same with margin*/
-		border-color: black;
-		border-width: 2px;	
-		border-style: solid;
-		background-image:;
-	}
-	
-	p.paragraphr2 {
 		color:black;
 		font-size:15px;
 		line-height:1.5em;
@@ -140,16 +117,6 @@ body{
 		background-image:;
 	}
 	
-	p.paragraphg2 {
-		color:black;
-		font-size:15px;
-		line-height:1.5em;
-		background-color:#67D361;
-		padding: 20px;/*padding goes top right bottom left for values same with margin*/
-		border-color: black;
-		border-width: 2px;	
-		border-style: solid;
-		background-image:;
 	}
 	
 	.imagea {
