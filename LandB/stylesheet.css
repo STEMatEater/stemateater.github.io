@@ -84,7 +84,7 @@ body{
 		color:black;
 		font-size:15px;
 		line-height:1.5em;
-		background-color:#C5C83C;
+		background-color:rgb(60, 172, 200);
 		padding: 20px;/*padding goes top right bottom left for values same with margin*/
 		border-color: black;
 		border-width: 2px;	
