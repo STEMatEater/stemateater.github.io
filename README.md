@@ -1,0 +1,1 @@
+at this point, the buttons are working and I have the "Home" page and "Learning and Building" page set up in the format that i might use.  Just started working on the specifics of the picture of my face.
