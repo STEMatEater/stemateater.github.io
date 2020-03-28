@@ -105,7 +105,7 @@ width: 40px;
 /*example image in project abstract*/
 .imagec {
 float: left;	
-padding:1px;
+padding:;
 border: black 2px solid;
 margin: 0px 2px 0px 0px;	
 width: 40%;		
