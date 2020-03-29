@@ -15,6 +15,15 @@ function active(){
 
 	}
 }
+function inactive(){
+	var searchBar = document.getElementById('searchBar');
+
+	if(searchBar.value == ''){
+		searchBar.value = 'search..'
+		searchBar.placeholder = ''
+
+	}
+}
 
 </script>
 </head>
@@ -89,7 +98,7 @@ no longer useful search bar-->
 <!--try 2 of search bar.  used this url to learn about it.https://www.youtube.com/watch?v=38rJPEqapoA-->
 <form action="search.php" method="post">
 
-	<input type="text" id="searchBar" placeholder="" value="Search.." maxlength="25" autocomplete="off" onMouseDown="acive();" onBlur=""/><input type="submit" id="searchBtn" value="Go!"/>
+	<input type="text" id="searchBar" placeholder="" value="Search.." maxlength="25" autocomplete="off" onMouseDown="active();" onBlur="inactive();"/><input type="submit" id="searchBtn" value="Go!"/>
 </form>
 
 <p class="paragraph">
