@@ -186,6 +186,7 @@ Margin: -5px;
 
 #searchBar {
 border: 1px solid #000000;
+border-right: none;
 font-size: 16px;
 padding: 10px;
 outline: none;
