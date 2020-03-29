@@ -4,7 +4,17 @@
 
 <head>STEM@EJHS
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
+<!--the few lines immediately below were added simply for the search bar-->
 <script type="text/javascript">
+function active(){
+	var searchBar = document.getElementById('searchBar');
+
+	if(searchBar.value == 'Search..'){
+		searchBar.value = ''
+		searchBar.placeholder = 'Search..'
+
+	}
+}
 
 </script>
 </head>
@@ -79,7 +89,7 @@ no longer useful search bar-->
 <!--try 2 of search bar.  used this url to learn about it.https://www.youtube.com/watch?v=38rJPEqapoA-->
 <form action="search.php" method="post">
 
-	<input type="text" id="searchBar" placeholder="" value="Search.." maxlength="25" autocomplete="off" onMouseDown="" onBlur=""/><input type="submit" id="searchBtn" value="Go!"/>
+	<input type="text" id="searchBar" placeholder="" value="Search.." maxlength="25" autocomplete="off" onMouseDown="acive();" onBlur=""/><input type="submit" id="searchBtn" value="Go!"/>
 </form>
 
 <p class="paragraph">
