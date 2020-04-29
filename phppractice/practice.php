@@ -23,8 +23,10 @@ alert (years + someText);
 	<li><a href="https://stemateater.github.io/LandB/Learning.html">Learning and Building</a></li>
 	<li><a href="https://stemateater.github.io/SW/Studentswork.html">Student's Work</a></li>
 	<li><a href="https://stemateater.github.io/Parent/ParentsUpdates.html">Parent Updates</a></li>
-	<li><a href="https://stemateater.github.io/Teacher/TeacherLearning.html">Teacher</a></li>
-	<li><a href="https://stemateater.github.io/phppractice/indexphp.html">phppractice</a></li>
+    <li><a href="https://stemateater.github.io/Teacher/TeacherLearning.html">Teacher</a></li>
+    
+    <li><a href="https://stemateater.github.io/phppractice/indexphp.html">phppractice</a></li>
+    <li><a href="https://stemateater.github.io/phppractice/practice.php">phppractice</a></li>
 
 
 
