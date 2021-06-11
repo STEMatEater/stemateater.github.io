@@ -1,4 +1,4 @@
 This sites url is:
 https://stemateater.github.io/Index.html
 This page url is:
-https://stemateater.github.io/ComingSoon.PlaceHolder.html
+https://stemateater.github.io/ComingSoon/PlaceHolder.html
