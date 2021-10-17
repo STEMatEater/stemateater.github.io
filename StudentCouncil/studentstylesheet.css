@@ -54,7 +54,7 @@ margin: 0px;
 }
 
 p.para1 {
-  color:White;
+  color:Black;
   font-size:15px;
   line-height:1.5em;
   background-color:#e5e4e7;
@@ -63,7 +63,7 @@ p.para1 {
   border-color: White;
   border-width: 2px;	
   border-style:solid;	
-  background-image: url(noodle.jpg);
+  background-image: url(trees2.png);
   }
 
 /*<!-- paragraphs for projects (option 1) -->*/
@@ -125,7 +125,7 @@ width: 75px;
     
 #navbar ul{
 	padding: 100;
-	margin: 100;
+	margin: 0;
 	list-style-type: none;
 	text-align: center;
   padding: 5px;
