@@ -53,6 +53,19 @@ padding: 5px 10px 5px 10px;
 margin: 0px;
 }
 
+p.para1 {
+  color:black;
+  font-size:15px;
+  line-height:1.5em;
+  background-color:#e5e4e7;
+  padding: 20px;
+  margin: 0px;
+  border-color: black;
+  border-width: 2px;	
+  border-style:solid;	
+  background-image: url(zimgblue.png);
+  }
+
 /*<!-- paragraphs for projects (option 1) -->*/
 /*h2, p.paragraph and .imagec are the only css neccessary in this document*/
 p.paragraph {
