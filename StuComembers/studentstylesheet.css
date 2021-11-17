@@ -1,0 +1,164 @@
+/*body{
+color: green;
+font-family: Verdana, Arial, Geneva, Arial Black;
+font-weight: normal;
+background-image:url(stucobackground.png);
+margin: 0px;
+}
+*/
+
+
+body{
+    color: green;
+    font-family: Verdana, Arial, Geneva, Arial Black;
+    font-weight: normal;
+    background-image:url(jwe2.png);
+    margin: 0px;
+    }
+
+/*
+h1 {
+color: rgb(231, 235, 10);
+background-color: rgb(0, 38, 255);
+text-decoration: underline;
+font-size: 150%;
+text-align:center;
+width: 150px;
+margin-left: 40%;
+margin-right: 40%;
+Border: black 2px solid;
+
+}
+*/
+h1 {
+  color: #3D59AB;
+  background-color: #FFD700;
+  text-decoration: underline;
+  font-size: 150%;
+  text-align:center;
+  width: 150px;
+  margin-left: 40%;
+  margin-right: 40%;
+  Border: black 2px solid;
+  
+  }
+
+h2 {
+color: black;
+background-color: orange;
+text-decoration: underline;
+font-size: 150%;
+text-align:center;
+padding: 5px 10px 5px 10px;
+margin: 0px;
+}
+
+p.para1 {
+  color:Black;
+  font-size:15px;
+  line-height:1.5em;
+  background-color:#e5e4e7;
+  padding: 20px;
+  margin: 0px;
+  border-color: White;
+  border-width: 2px;	
+  border-style:solid;	
+  background-image: url(trees2.png);
+  }
+
+/*<!-- paragraphs for projects (option 1) -->*/
+/*h2, p.paragraph and .imagec are the only css neccessary in this document*/
+p.paragraph {
+color:black;
+font-size:15px;
+line-height:1.5em;
+background-color:#e5e4e7;
+padding: 20px;/*padding goes top right bottom left for values same with margin*/
+margin-left: 5%; /*this coding is unique to studentstylesheet*/
+margin-right: 5%; /*this coding is unique to studentstylesheet*/
+border-color: black;
+border-width: 2px;	
+border-style: solid;
+background-image:;
+}
+
+/*example image in project abstract*/
+/*h2, p.paragraph and .imagec are the only css neccessary in this document*/
+.imagec {
+float: left;	
+padding:0px;
+border: black 2px solid;
+margin: 0px 2px 0px 0px;	
+width: 75px;		
+}
+
+#navbar 
+    {
+
+        background: red;
+        animation: mymove 5s infinite;
+      }
+      
+      @keyframes mymove {
+        from {background-color: red;}
+        to {background-color: blue;}
+      }
+      {
+        max-height: 140px;
+        min-height: 35px;
+        border: 1px solid black;
+        font-size: 25px;
+        font-weight: bold;
+        font: Tahoma;
+        }
+/*+
+
+ #navbar {
+            background-color: darkgreen;
+            height: 35px;
+            font-size: 25px;
+            font-weight: bold;
+            font: Tahoma;
+            }
+            */
+        
+    
+#navbar ul{
+	padding: 100;
+	margin: 0;
+	list-style-type: none;
+	text-align: center;
+  padding: 5px;
+}
+
+
+#navbar li{
+	display: inline;
+	padding: 10px;
+	vertical-align: middle;
+}
+
+#navbar a{
+	text-decoration: none;
+	padding: 8px 8px 8px 8px;
+	color: black;
+	vertical-align: middle;
+	
+	background: #e7e7e7;
+	border: 1px solid;
+	border-radius: 3px;
+	font: 700 17px Helvetica,Arial;
+	height: 30px;
+	padding: 0 20px;
+	text-align: center;
+	margin-right: 10px;
+	box-sizing: border-box;
+}
+
+#navbar a:hover{
+
+	color: purple;
+	background-color: white;
+	cursor: hand;
+
+}
