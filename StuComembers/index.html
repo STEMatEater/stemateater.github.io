@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Google Sheets Database.</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<!--
+    <style>
+        *{box-sizing: border-box; }
+        body { max-width800px; width: 100% margin: 1em auto; font-size: 2em; font-family: Arial; padding}
+        h1{ text-align: center; }
+    </stlye>
+-->
+
 </head>
 <body>
-    
+    <h1>Hello World5</h1>
+    <h2>items</h2>
+    <main>.</main>
 </body>
+<script>
+    const url = "https://docs.google.com/spreadsheets/d/1DmXJU4VbHA81yXe3Kc_mrP9D87URy42UvjthesnnyQ0/export?format=csv";
+    const main = document.queryselector("main");
+fetch(url),then(result=>result,text()),then(csvtext=>main.innerHTML=csvtext);
+</script>
 </html>
